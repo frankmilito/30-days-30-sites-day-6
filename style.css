@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Montserrat&family=Roboto:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+p{
+    font-family: "Montserrat";
+}
+h1{
+    font-family: "Roboto";
+}
+body{
+    font-size: 16px;
+    font-family:"Montserrat", sans-serif;
+    color:#fff;
+}
+ul{
+    list-style-type: none;
+    line-height: 1.6em;
+}
+.container{
+    text-align:center;
+
+}
+.logo{
+    /* width: 150px; */
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding:.8em 1.2em;
+}
+header h1{
+    font-family: "Akronim";
+    font-size: 2em;
+}
+/* .hide-mobile{
+    display:none;
+} */
+ .menu-items {
+    display: block;
+  }
+
+  #nav {
+    transition: 0.6s;
+    width: 0;
+  }
+  nav ul {
+    position: fixed;
+    width: 60%;
+    top: 0;
+    right: 0;
+    text-align: left;
+   background:#F64747;
+    height: 100%;
+    padding: 3em 0 0 0;
+    text-align: center;
+  }
+  nav ul a {
+    color: #fff;
+    margin: 1em 2em;
+    padding:1em;
+     background:#F64747;
+    display: block;
+    transition: 0.5s;
+    text-decoration: none;
+    border-bottom: 1px solid silver;
+    text-align: left;
+    font-weight: bold;
+  }
+ .container .fas{
+     color:#fff;
+     border-radius: 50%;
+     background: rgba(255, 255, 255, 0.095);
+     padding: 12px;
+     transition:0.5s;
+ }
+ .container .fas:hover{
+     background: rgba(255, 255, 255, 0.055);
+     color:rgb(134, 134, 134);
+ }
+
+  .exit-btn {
+    margin-bottom: 1em;
+    margin-top: -1.3em;
+    text-align: right;
+    padding: 0 1.4em;
+    cursor: pointer;
+    font-weight: bold;
+  }
+.section1{
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 100vh;
+overflow: hidden;
+}
+.section1 p{
+    /* font-size: 8em;
+    font-family: "Lobster"; */
+    color:#fff;
+    font-size: 7em;
+line-height: 1.1;
+font-family: "Lobster", cursive;
+margin-bottom: .25em;
+color: rgba(255, 255, 255, 0.75);
+text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+text-transform: none;
+}
+.section2{
+    height: 100vh;
+        text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+        display:flex;
+        background-repeat: no-repeat;
+background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.9em;
+
+}
+.section2 .inner{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4em;
+    width:60em;
+    padding: 4em;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.wrapper{
+    padding: 6em 0;
+}
+.btn1{
+  transition:0.2s;
+  background:transparent;
+border-radius: 4px;
+/* width:100%; */
+color:#fff;
+cursor: pointer;
+display: inline-block;
+font-weight: 600;
+padding: 1em 2em;
+text-transform: uppercase;
+}
+.btn1:hover{
+ background: rgba(255, 255, 255, 0.055);
+     color:rgb(134, 134, 134);
+}
+.section3{
+        background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/banner5.jpg);
+        background-size: cover;
+    background-position: center;
+        display:flex;
+        background-repeat: no-repeat;
+background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.9em;
+}
+.section4{
+        background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/banner4.jpg);
+    background-size: cover;
+    background-position: center;
+        display:flex;
+        background-repeat: no-repeat;
+background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.9em;
+}
+.section5{
+        background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/banner3.jpg);
+    background-size: cover;
+    background-position: center;
+        display:flex;
+        background-repeat: no-repeat;
+background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.9em;
+}
+.section6{
+    color:#000;
+color: #fdd1d1;
+padding: 1em 0 4em 0;
+width:100%;
+background: #F64747;
+}
+.section6 label{
+    display:block;
+}
+.label{
+    display:flex;width: 100%;
+}
+.label >div{
+   width: 100%;
+   margin-right: 1em;
+}
+.section6 input{
+    background: rgba(255, 255, 255, 0.075);
+border-color: rgba(255, 255, 255, 0.25);
+display:block;
+}
+.section6 input[type='text'],input[type='email']{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width:100%;
+    height: 2.75em;
+    border:none;
+     border:1px solid silver;
+    border-radius: 10px;
+    /* outline:1px solid #fff; */
+}
+.section6 .div{
+      display:flex;
+      width:60em;
+   justify-content: center;
+   align-items: center;
+    padding: 4em;
+    margin:0 auto;
+}
+.section6 .div h1{
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom:2em;
+}
+.section6 .div >div{
+    width:100%;
+    
+}
+textarea{
+    width:100%;
+    border:1px solid silver;
+        background: rgba(255, 255, 255, 0.075);
+border-color: rgba(255, 255, 255, 0.25);
+margin:20px 0;
+}
+::placeholder{
+    font-family: 'Montserrat';
+    color:#fff;
+}
+.socials{
+    margin-top: 4em;
+    text-align: center;
+}
+.socials i{
+    padding:0 10px;
+    color:#Fff;
+}
+.socials i:hover{
+    opacity:0.4;
+}
+footer{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+}
+
+/* media queries */
+@media only screen and (max-width:789px){
+    header{
+   background:black;
+}
+.section1{
+background-attachment: scroll;
+    background-position: center center;
+}
+.section1 p{
+    /* font-size: 8em;
+    font-family: "Lobster"; */
+    color:#fff;
+    font-size: 4em;
+line-height: 1.1;
+font-family: "Lobster", cursive;
+margin-bottom: .25em;
+color: rgba(255, 255, 255, 0.75);
+text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+text-transform: none;
+}
+.section2{
+    height: 100vh;
+        text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/banner2.jpg);
+    background-size: cover;
+    background-position: center right;
+        display:flex;
+        background-repeat: no-repeat;
+background-attachment: scroll;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.9em;
+
+}
+.section3{
+    background-position: center right;
+background-attachment: scroll;
+}
+.section4{
+    background-position: center right;
+background-attachment: scroll;
+}
+.section5{
+    background-position: center right;
+background-attachment: scroll;
+}
+.section2 .inner{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: ;
+    width:60em;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin:0 1em;
+    border-radius: 5px;
+}
+.wrapper{
+    padding: 0 0;
+}
+
+.label{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+}
+.btn1{
+  transition:0.45s;
+width:100%;
+}
+.section6 .div{
+      display:flex;
+      width:100%;
+   justify-content: center;
+   align-items: center;
+    padding: 2em;
+    margin:0 auto;
+}
+}
